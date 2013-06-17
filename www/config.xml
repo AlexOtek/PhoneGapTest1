@@ -52,6 +52,7 @@ The 'device' permission is required for the 'deviceready' event.
 
 
 	<access origin="http://appapi.adsdaily.com/en/camera/test/" subdomains="true" browserOnly="false" /> 
+	<content origin="http://appapi.adsdaily.com/en/camera/test/" subdomains="true" browserOnly="false" /> 
 </widget>
 
 
