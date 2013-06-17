@@ -5,14 +5,14 @@
         id = "com.o2tek.phonegaptest"
         version = "1.0.0">
 
-    <name>Welcome to our all Cayman App</name>
+    <name>CaymanPal</name>
 
     <description>
-        AdsDaily PhoneGap Test
+        CaymanPal PhoneGap Test
     </description>
 
     <author href="http://o2tek.com" email="alex@o2tek.com">
-        AdsDaily Team
+        CaymanPal Team
     </author>
 
     <!--
