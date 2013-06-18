@@ -20,9 +20,10 @@
 Enable individual API permissions by defining each here.
 The 'device' permission is required for the 'deviceready' event.
 -->
-	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
-	<plugin name="InAppBrowser" value="CDVInAppBrowser" />
-
+	<plugins>
+		<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+		<plugin name="InAppBrowser" value="CDVInAppBrowser" />
+	</plugins>
 
     <feature name="http://api.phonegap.com/1.0/device" />
 
