@@ -53,7 +53,7 @@ The 'device' permission is required for the 'deviceready' event.
 
 	<access origin="http://appapi.adsdaily.com/" subdomains="true" browserOnly="false" /> 
 	<content origin="http://appapi.adsdaily.com/" subdomains="true" browserOnly="false" /> 
-	<content src="http://appapi.adsdaily.com/" />
+	<content src="http://appapi.adsdaily.com/en/phonegap/" />
 </widget>
 
 
