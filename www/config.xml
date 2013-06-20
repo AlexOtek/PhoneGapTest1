@@ -23,6 +23,7 @@ The 'device' permission is required for the 'deviceready' event.
 	<plugins>
 		<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
 		<plugin name="InAppBrowser" value="CDVInAppBrowser" />
+		 <plugin name="PushNotification" value="com.pushwoosh.plugin.pushnotifications.PushNotifications" onload="true"/>
 	</plugins>
 
     <feature name="http://api.phonegap.com/1.0/device" />
@@ -60,6 +61,7 @@ The 'device' permission is required for the 'deviceready' event.
 
 	<access origin="http://appapi.adsdaily.com/" subdomains="true" browserOnly="false" /> 
 	<access origin="http://carscayman.com/" subdomains="true" browserOnly="false" /> 
+	<access origin="https://cp.pushwoosh.com" subdomains="true" />
 	
 	<content origin="http://appapi.adsdaily.com/" subdomains="true" browserOnly="false" /> 
 	<content origin="http://carscayman.com/" subdomains="true" browserOnly="false" /> 
