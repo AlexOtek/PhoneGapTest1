@@ -3,9 +3,12 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
        
-        id = "2MK6WB722A.com.adsdaily.appapi"
+        id = "web.com.adsdaily.appapi"
+        
         version = "1.0.0">
-<!--  id = "com.o2tek.phonegaptest" -->
+<!--  id = "com.o2tek.phonegaptest" 
+	id = "2MK6WB722A.com.adsdaily.appapi"
+-->
     <name>CaymanPal</name>
 
     <description>
