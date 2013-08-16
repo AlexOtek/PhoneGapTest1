@@ -3,7 +3,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
        
-        id = "web.com.adsdaily.appapi"
+        id = "com.adsdaily.appapi"
         
         version = "1.0.0">
 <!--  id = "com.o2tek.phonegaptest" 
@@ -64,6 +64,7 @@ The 'device' permission is required for the 'deviceready' event.
 
 
 	<access origin="http://appapi.adsdaily.com/" subdomains="true" browserOnly="false" /> 
+	<access origin="*" />
 	<access origin="http://carscayman.com/" subdomains="true" browserOnly="false" /> 
 	<access origin="https://cp.pushwoosh.com" subdomains="true" />
 	
