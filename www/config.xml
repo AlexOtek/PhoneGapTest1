@@ -70,6 +70,7 @@ The 'device' permission is required for the 'deviceready' event.
 
 	<access origin="http://appapi.adsdaily.com/" subdomains="true" browserOnly="false" /> 
 	<access origin="*" />
+	<access origin="http://127.0.0.1*"/>
 	<access origin="http://carscayman.com/" subdomains="true" browserOnly="false" /> 
 	<access origin="https://cp.pushwoosh.com" subdomains="true" />
 	
