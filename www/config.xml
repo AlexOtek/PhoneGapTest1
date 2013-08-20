@@ -23,6 +23,7 @@
 	<preference name="show-splash-screen-spinner" value="false" />
 	<preference name="stay-in-webview" value="true" />
 	<preference name="DisallowOverscroll" value="true"></preference>
+	<preference name="orientation" value="portrait" />
 	<preference name="UIWebViewBounce" value="false" />
     <!--
 Enable individual API permissions by defining each here.
