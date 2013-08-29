@@ -27,6 +27,8 @@
 	<preference name="DisallowOverscroll" value="true"></preference>
 	<preference name="orientation" value="portrait" />
 	<preference name="UIWebViewBounce" value="false" />
+	
+	
     <!--
 Enable individual API permissions by defining each here.
 The 'device' permission is required for the 'deviceready' event.
@@ -36,6 +38,9 @@ The 'device' permission is required for the 'deviceready' event.
 		<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 		
 		<plugin name="Camera" value="CDVCamera" /> <!-- ios camera -->
+		<plugin name="File" value="CDVFile" /> <!-- ios filesystem -->
+		<plugin name="FileTransfer" value="CDVFileTransfer" /> <!-- ios filesystem -->
+
 
 		 <plugin name="PushNotification" value="com.pushwoosh.plugin.pushnotifications.PushNotifications" onload="true"/>
 	</plugins>
