@@ -45,6 +45,8 @@ The 'device' permission is required for the 'deviceready' event.
 		 <plugin name="PushNotification" value="com.pushwoosh.plugin.pushnotifications.PushNotifications" onload="true"/>
 		 
 		 <plugin name="Notification" value="org.apache.cordova.Notification"/>
+		 <plugin name="Notification" value="CDVNotification" />
+
 
 	</plugins>
 
