@@ -43,10 +43,14 @@ The 'device' permission is required for the 'deviceready' event.
 
 
 		 <plugin name="PushNotification" value="com.pushwoosh.plugin.pushnotifications.PushNotifications" onload="true"/>
+		 
+		 <plugin name="Notification" value="org.apache.cordova.Notification"/>
+
 	</plugins>
 
     <feature name="http://api.phonegap.com/1.0/device" />
 	<feature name="http://api.phonegap.com/1.0/file"/>
+	
 
    
     <!-- Define app icon for each platform. -->
