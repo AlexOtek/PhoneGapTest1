@@ -19,6 +19,9 @@
     <author href="http://o2tek.com" email="alex@o2tek.com">
         CaymanPal Team
     </author>
+    	
+    	<gap:platform name="ios" />
+	<gap:platform name="android" />
 	
 	<preference name="phonegap-version" value="2.9.0"/>
 	
