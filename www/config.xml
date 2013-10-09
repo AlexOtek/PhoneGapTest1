@@ -45,6 +45,8 @@ The 'device' permission is required for the 'deviceready' event.
 		<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
 		<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 		
+		<plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
+		
 		<plugin name="Camera" value="CDVCamera" /> <!-- ios camera -->
 		<plugin name="File" value="CDVFile" /> <!-- ios filesystem -->
 		<plugin name="FileTransfer" value="CDVFileTransfer" /> <!-- ios filesystem -->
@@ -59,6 +61,8 @@ The 'device' permission is required for the 'deviceready' event.
 
     <feature name="http://api.phonegap.com/1.0/device" />
 	<feature name="http://api.phonegap.com/1.0/file"/>
+
+
 	
 
    
